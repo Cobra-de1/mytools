@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd ~/Install/glibc/
+git checkout release/$1/master
