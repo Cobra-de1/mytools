@@ -9,6 +9,6 @@ def add_all_folder(path):
 		if os.path.isdir(subfolder):
 			add_all_folder(subfolder)
 
-add_all_folder('~/Install/glibc/')
+add_all_folder('/home/cobra/Install/glibc/')
 #add_all_folder('/home/cobra/Install/system_glibc_source/glibc-2.31/')
 
